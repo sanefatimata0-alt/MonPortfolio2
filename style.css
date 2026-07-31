@@ -58,6 +58,8 @@ img {
 
 section {
     padding: 80px 8%;
+    /* offset for fixed navbar so anchor targets are not hidden under it */
+    scroll-margin-top: 90px;
 }
 
 
@@ -911,7 +913,9 @@ footer p {
     }
 
 
+
 }
+
 
 
 @media(max-width:400px) {
